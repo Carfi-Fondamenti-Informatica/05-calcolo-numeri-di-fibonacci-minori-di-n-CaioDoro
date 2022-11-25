@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-long int fibonacci (int num)
+long long int fibonacci (int num)
 {
     if (num <= 1)
         return num;
@@ -14,8 +14,8 @@ int main() {
     if (num<=0){
         return 0;
     } else {
-    for (int a = 1; a <= num; a++) {
-        cout << fibonacci(a) << endl;
-    }}
+        for (int a = 1; a <= num; a++) {
+            cout << fibonacci(a) << endl;
+        }}
     return 0;
 }
