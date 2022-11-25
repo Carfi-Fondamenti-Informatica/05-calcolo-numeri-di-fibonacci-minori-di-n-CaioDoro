@@ -14,7 +14,7 @@ int main() {
     if (num<=0){
         return 0;
     } else {
-        for (int a = 1; a <= num; a++) {
+        for (int a = 1; fibonacci(a) <= num; a++) {
             cout <<fibonacci(a)<<endl;
         }}
     return 0;
